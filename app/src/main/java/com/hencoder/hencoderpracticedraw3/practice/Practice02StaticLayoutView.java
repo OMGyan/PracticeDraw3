@@ -3,10 +3,11 @@ package com.hencoder.hencoderpracticedraw3.practice;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.support.annotation.Nullable;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.annotation.Nullable;
 
 public class Practice02StaticLayoutView extends View {
     TextPaint textPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
